@@ -1,0 +1,225 @@
+repo_name: rongfengliang/incubator-rocketmq
+report_id: cb3e34eff5795b273429e4639cad55f5
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:02:18+00:00'
+requested_by: vongosling
+provider: github
+branch: master
+detected_tools_count: 18
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq/blob/master/broker/src/main/resources/transaction.sql
+  detection_source: broker/src/main/resources/transaction.sql
+  last_updated_by: yukon
+  last_updated_on: 2016-12-19 09:34:19.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq/blob/master/broker/pom.xml
+  detection_source: broker/pom.xml
+  last_updated_by: yukon
+  last_updated_on: 2016-12-19 09:34:19.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq/blob/master/broker/pom.xml
+  detection_source: broker/pom.xml
+  last_updated_by: yukon
+  last_updated_on: 2016-12-19 09:34:19.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq/blob/master/client/pom.xml
+  detection_source: client/pom.xml
+  last_updated_by: yukon
+  last_updated_on: 2016-12-19 09:34:19.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: yukon
+  last_updated_on: 2016-12-19 09:34:19.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq
+  detection_source: Repo Metadata
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq/blob/master/broker/pom.xml
+  detection_source: broker/pom.xml
+  last_updated_by: yukon
+  last_updated_on: 2016-12-19 09:34:19.000000000 Z
+- name: ch.qos.logback:logback-core
+  description: Logback-core module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq/blob/master/broker/pom.xml
+  detection_source: broker/pom.xml
+  last_updated_by: yukon
+  last_updated_on: 2016-12-19 09:34:19.000000000 Z
+- name: com.alibaba:fastjson
+  description: Fastjson is a JSON processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq/blob/master/broker/pom.xml
+  detection_source: broker/pom.xml
+  last_updated_by: yukon
+  last_updated_on: 2016-12-19 09:34:19.000000000 Z
+- name: commons-cli:commons-cli
+  description: Apache Commons CLI provides a simple API for presenting
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq/blob/master/srvutil/pom.xml
+  detection_source: srvutil/pom.xml
+  last_updated_by: yukon
+  last_updated_on: 2016-12-19 09:34:19.000000000 Z
+- name: io.netty:netty-all
+  description: Netty is an asynchronous event-driven network application framework
+    for rapid development of maintainable high performance protocol servers and clients
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq/blob/master/remoting/pom.xml
+  detection_source: remoting/pom.xml
+  last_updated_by: yukon
+  last_updated_on: 2016-12-19 09:34:19.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq/blob/master/broker/pom.xml
+  detection_source: broker/pom.xml
+  last_updated_by: yukon
+  last_updated_on: 2016-12-19 09:34:19.000000000 Z
+- name: net.java.dev.jna:jna
+  description: Java Native Access
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq/blob/master/store/pom.xml
+  detection_source: store/pom.xml
+  last_updated_by: Willem Jiang
+  last_updated_on: 2016-12-23 04:42:59.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq/blob/master/filtersrv/pom.xml
+  detection_source: filtersrv/pom.xml
+  last_updated_by: yukon
+  last_updated_on: 2016-12-29 03:44:14.000000000 Z
+- name: org.javassist:javassist
+  description: Javassist
+  license: LGPL-2.1,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq/blob/master/broker/pom.xml
+  detection_source: broker/pom.xml
+  last_updated_by: yukon
+  last_updated_on: 2016-12-27 10:45:51.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/incubator-rocketmq/blob/master/client/pom.xml
+  detection_source: client/pom.xml
+  last_updated_by: yukon
+  last_updated_on: 2016-12-27 10:45:51.000000000 Z
